@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Lessons | Grade 12 Mathematics</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+       background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+      color: #f5f7fa;
+    }
+
+    header {
+      padding: 2.5rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.4rem;
+    }
+
+    header p {
+      max-width: 800px;
+      margin: 0 auto;
+      color: #cfd8dc;
+      font-size: 1.05rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+
+    .video-card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 18px;
+      padding: 1.2rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(8px);
+    }
+
+    .video-card h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .video-card p {
+      font-size: 0.95rem;
+      color: #d0e1e8;
+      margin-bottom: 1rem;
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: rgba(0, 0, 0, 0.25);
+      font-size: 0.85rem;
+      color: #b0bec5;
+    }
+     nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0.8rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      color: #e3f2fd;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .nav-links a:hover {
+      color: #90caf9;
+    }
+    
+  
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo">Grade 12 Mathematics</div>
+      <ul class="nav-links">
+        <li><a href="2026math.html">Home</a></li>
+        <li><a href="2026math2.html">Notes</a></li>
+        
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Video Lessons (Manim)</h1>
+    <p>
+      Concept explanations created using Manim animations. Each video corresponds
+      directly to a lesson taught in class.
+    </p>
+  </header>
+
+  <main>
+    <div class="video-card">
+      <h2>Functions – Lesson 1</h2>
+      <p>What is a function? Domain, range, and notation.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <h2>Functions – Lesson 2</h2>
+      <p>Linear and quadratic functions visualised.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <h2>Functions – Lesson 3</h2>
+      <p>Exponential and logarithmic growth explained.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <h2>Functions – Lesson 4</h2>
+      <p>Transformations of graphs using Manim animations.</p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" allowfullscreen></iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 | Grade 12 Mathematics • Video Concept Library
+  </footer>
+
+</body>
+</html>

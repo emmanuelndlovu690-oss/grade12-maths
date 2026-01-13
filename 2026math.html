@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grade 12 Mathematics | Notes & Problem Sets</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-image: url('crystals.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #f5f7fa;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0.8rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 1.2rem;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      color: #e3f2fd;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .nav-links a:hover {
+      color: #90caf9;
+    }
+
+    header {
+      padding: 2.5rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0 auto;
+      color: #cfd8dc;
+      font-size: 1.1rem;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.1), rgba(29, 29, 29, 0.2));
+      border-radius: 18px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(8px);
+      transition: transform 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #d0e1e8;
+      margin-bottom: 1.2rem;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      border-radius: 999px;
+      background: linear-gradient(#90caf9, #64b5f6);
+      color: #0d1b2a;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: rgba(0, 0, 0, 0.25);
+      font-size: 0.9rem;
+      color: #b0bec5;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-container">
+      <div class="logo">Grade 12 Mathematics</div>
+      <ul class="nav-links">
+        <li><a href="#pure">Pure Math</a></li>
+        <li><a href="#calculus">Calculus</a></li>
+        <li><a href="#psets">Problem Sets</a></li>
+      </ul>
+    </div>
+  <header>
+    <h1>Grade 12 Mathematics</h1>
+    <p>
+      Structured LaTeX notes and exam-focused problem sets designed to build deep understanding
+      and mastery of CAPS Grade 12 Mathematics.
+    </p>
+  </header>
+
+  <main id="pure">
+    <div class="card">
+      <h2>Functions & Graphs</h2>
+      <p>Polynomial, exponential, logarithmic functions and transformations.</p>
+      <a href="notavaliable.html" > Lessons</a>
+    </div>
+
+    <div class="card">
+      <h2>Algebra</h2>
+      <p>Equations, inequalities, surds, exponents, and algebraic manipulation.</p>
+      <a href="notavaliable.html" >Lessons</a>
+    </div>
+
+    <div class="card">
+      <h2>Sequences & Series</h2>
+      <p>Arithmetic and geometric sequences, sigma notation, applications.</p>
+      <a href="sequences.html" >Lessons</a>
+    </div>
+  </main>
+
+  <main id="calculus">
+    <div class="card">
+      <h2>Differential Calculus</h2>
+      <p>Limits, first principles, derivatives, and applications.</p>
+      <a href="notavaliable.html" >Lessons</a>
+    </div>
+
+    <div class="card">
+      <h2>Analytical Geometry</h2>
+      <p>Lines, circles, distance, midpoint, and gradients.</p>
+      <a href="notavaliable.html" >Lessons</a>
+    </div>
+
+    <div class="card">
+      <h2>Trigonometry</h2>
+      <p>Identities, equations, graphs, and 2D/3D trigonometry.</p>
+      <a href="notavaliable.html" >Lessons</a>
+    </div>
+  </main>
+
+  <main id="psets">
+    <div class="card">
+      <h2>Core Exam Problem Sets</h2>
+      <p>High-level exam-style questions with complete worked solutions.</p>
+      <a href="notavaliable.html" >Download PSETs</a>
+    </div>
+
+    <div class="card">
+      <h2>Advanced Challenge Sets</h2>
+      <p>Extension problems to push beyond the standard curriculum.</p>
+      <a href="notavaliable.html" >Download PSETs</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 | Grade 12 Mathematics • Class Project by Emmanuel
+  </footer>
+
+</body>
+</html>
